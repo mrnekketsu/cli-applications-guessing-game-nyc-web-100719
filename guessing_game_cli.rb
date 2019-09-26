@@ -6,6 +6,6 @@ def run_guessing_game
   if user_input == "exit"
     puts "Goodbye!"
   elsif user_input != randNum
-    puts "Sorry! The correct "
+    puts "Sorry! The computer guessed #{randNum} "
   end
 end
